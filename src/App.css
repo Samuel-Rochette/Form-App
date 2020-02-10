@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
+.title {
+    font-size: 36px;
+    margin-bottom: 25px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.subtitle {
+    font-size: 26px;
+    margin-bottom: 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bold {
+    font-weight: 700;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.light {
+    font-weight: 300;
 }
 
-.App-link {
-  color: #61dafb;
+.button {
+    text-align: center;
+    font-weight: 700;
+    background-size: 200% auto;
+    cursor: pointer;
+    border: none;
+    color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button-small {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.button-large {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.pill {
+    border-radius: 30px;
+}
+
+.primary {
+    background-image: linear-gradient(to right, #941BFF 0%, #F185CD 51%, #941BFF 100%);
+}
+
+.secondary {
+    background-image: linear-gradient(to right, #2DCDD8 0%, #68E3B3 51%, #2DCDD8 100%);
+}
+
+.default {
+    background-color: #272930;
+}
+
+.success {
+    background-color: #7ED321;
+}
+
+.beige {
+    background-color: #EEE5E2;
+}
+
+.gray {
+    background-color: #ECEFF1;
+}
+
+.default-text {
+    color: #303030;
+}
+
+.blue-text {
+    color: #3380FF;
+}
+
+.red-text {
+    color: #D0021B;
+}
+
+.white-text {
+    color: white;
+}
+
+.custom-underline {
+    background: linear-gradient(to right, #3380FF, #3380FF) no-repeat;
+    background-size: 100% 3px;
+    background-position: bottom;
+    color: #3380FF;
+    cursor: pointer;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }

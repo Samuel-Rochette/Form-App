@@ -1,0 +1,40 @@
+.form-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #CCCCCC;
+    border-radius: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.form-error {
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    bottom: 20px;
+    color: #D51A31;
+}
+
+.error-alert {
+    width: 100%;
+    padding: 7px;
+    border: 3px solid #E78490;
+    background-color: #D0021B;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.alert-text {
+    font-weight: 700;
+    position: relative;
+    top: 8px;
+}
+
+.circle {
+    height: 150px;
+    width: 150px;
+    background-image: linear-gradient(to top right, #2DCDD8, #68E3B3);
+    border-radius: 50%;
+    display: inline-block;
+    padding-left: 52px;
+}

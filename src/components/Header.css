@@ -1,0 +1,17 @@
+.logo {
+    font-size: 17px;
+    font-weight: 700;
+    position: absolute;
+    cursor: pointer;
+}
+
+.header {
+    padding: 15px;
+    background: #272930;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.center {
+    margin: auto;
+}
