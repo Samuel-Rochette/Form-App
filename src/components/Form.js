@@ -34,12 +34,12 @@ function Form() {
                         {errors.lastName && <p className="form-error">Last name is required</p>}
 
                         <b>Email <span className="red-text">*</span></b><br />
-                        <input className="form-input" type="text" name="email" ref={register({ required: true, pattern: /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/ })}></input>
+                        <input className="form-input" type="text" name="email" ref={register({ required: true, pattern: /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/ })}></input>
                         {errors.email && errors.email.type === "required" && <p className="form-error">Email is required</p>}
                         {errors.email && errors.email.type === "pattern" && <p className="form-error">Expected email format: example@example.com</p>}
 
                         <b>Phone Number <span className="red-text">*</span></b><br />
-                        <input className="form-input" type="text" name="phoneNumber" ref={register({ required: true, pattern: /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im })}></input>
+                        <input className="form-input" type="text" name="phoneNumber" ref={register({ required: true, pattern: /^[+]?[(]?[0-9]{3}[)]?[-\s.]?[0-9]{3}[-\s.]?[0-9]{4,6}$/im })}></input>
                         {errors.phoneNumber && errors.phoneNumber.type === "required" && <p className="form-error">Phone number is required</p>}
                         {errors.phoneNumber && errors.phoneNumber.type === "pattern" && <p className="form-error">Incorrect format for phone number</p>}
 
