@@ -13,7 +13,7 @@ import './Footer.css'
 function Footer() {
     return (
         <React.Fragment>
-            <div className="footer-menu default-text">
+            <div className="footer-menu default-text hide-mobile">
                 <div className="row">
                     <div className="col-3">
                         <ul>
@@ -42,16 +42,16 @@ function Footer() {
                         </ul>
                     </div>
                     <div className="col">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2918.835132231701!2d-81.24981268506941!3d42.981746479150054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x405bc8cee169d9c7%3A0xdff05c225d99dbcf!2sRace%20Roster!5e0!3m2!1sen!2sca!4v1581353702472!5m2!1sen!2sca" title="sampleMap" width="100%" height="140" frameBorder="0" allowFullScreen=""></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2918.835307889368!2d-81.25372648506946!3d42.98174277915003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef21d8c9d59fb%3A0xa637ea9287d6c236!2s103%20King%20St%2C%20London%2C%20ON%20N6A%206K1!5e0!3m2!1sen!2sca!4v1581956015316!5m2!1sen!2sca" title="sampleMap" width="100%" height="140" frameBorder="0" allowFullScreen=""></iframe>
                     </div>
                 </div>  
             </div>
             <div className="footer-base white-text">
                 <div className="row">
-                    <div className="col-3 offset-1">
+                    <div className="col offset-1">
                         <p className="footer-label vertical-center"><FaRegCopyright /> Copyright Acme Inc. [20XX]</p>
                     </div>
-                    <div className="col-2 offset-5">
+                    <div className="col-2 offset-5 hide-mobile">
                         <div className="row">
                             <div className="col"><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><FaFacebookSquare className="vertical-center social-media-link" color="#FFFFFF" size="30px" /></a></div>
                             <div className="col"><a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><FaTwitterSquare className="vertical-center social-media-link" color="#FFFFFF" size="30px" /></a></div>

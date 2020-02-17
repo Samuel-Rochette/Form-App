@@ -6,9 +6,9 @@ function Home() {
     return (
         <React.Fragment>
 
-            <div className="section beige text-center default-text">
+            <div className="section hero text-center default-text">
                 <div className="row">
-                    <div className="col-8 offset-2">
+                    <div className="col">
                         <h1 className="title bold">Make event management a breeze</h1>
                         <p className="subtitle light">ACME Events Inc. makes making beautiful event landing pages a DIY adventure</p>
                         <a href="#form"><button className="button button-large secondary pill">BOOK A DEMO</button></a>
@@ -18,8 +18,8 @@ function Home() {
 
             <div className="section  default-text">
                 <div className="row">
-                    <div className="col-4">
-                        <img src="img1.png" alt="image_1" width="100%" />
+                    <div className="col-4 hide-mobile">
+                        <img src="heart-lamps.png" alt="image_1" width="100%" />
                     </div>
                     <div className="col">
                         <h1 className="title bold">Make your ticket holders happy</h1>
@@ -30,18 +30,18 @@ function Home() {
                 </div>
             </div>
 
-            <div className="section gray text-center  default-text">
-                <iframe title="sampleVideo" width="560" height="315" src="https://www.youtube.com/embed/a3ICNMQW7Ok" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <div className="section gray text-center default-text">
+                <iframe title="sampleVideo" className="sample-video" src="https://www.youtube.com/embed/a3ICNMQW7Ok" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
 
             <div className="section">
                 <h1 id="form" className="subtitle bold default-text">Book a demo</h1>
                 <div className="row default-text">
-                    <div className="col-7">
+                    <div className="col">
                         <Form></Form>
                     </div>
-                    <div className="col offset-1">
-                        <img className="vertical-center" src="img2.png" alt="image_2" width="100%" />
+                    <div className="col-4 offset-1 hide-mobile">
+                        <img className="vertical-center" src="event-picture.png" alt="image_2" width="100%" />
                     </div>
                 </div>
             </div>

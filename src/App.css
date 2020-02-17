@@ -59,10 +59,6 @@
     background-color: #7ED321;
 }
 
-.beige {
-    background-color: #EEE5E2;
-}
-
 .gray {
     background-color: #ECEFF1;
 }
@@ -97,4 +93,23 @@
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+}
+
+@media screen and (max-width: 600px) {
+    .hide-mobile {
+        visibility: hidden;
+        clear: both;
+        float: left;
+        margin: 10px auto 5px 20px;
+        width: 28%;
+        display: none;
+    }
+
+    .button-small {
+        font-size: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 3px;
+        padding-top: 3px;
+    }
 }

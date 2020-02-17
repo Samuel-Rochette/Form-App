@@ -1,15 +1,14 @@
 .logo {
-    font-size: 17px;
-    font-weight: 700;
-    position: absolute;
     cursor: pointer;
+    width: 65%;
 }
 
 .header {
-    padding: 15px;
+    padding: 10px;
     background: #272930;
     color: white;
     font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
 }
 
 .center {
